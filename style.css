@@ -13,7 +13,7 @@
 
 .wrapper {
     padding: 20px;
-    background-color:#C4C4C4;
+    background-color: #C4C4C4;
     width: 1100px;
     height: 800px;
     margin: 50px 375px;
@@ -21,8 +21,6 @@
 
 .container {
     background-color: #E6E6E6;
-    width: 1000px;
-    height: 200px;
     overflow: auto;
     margin: 50px;
 }
@@ -53,19 +51,35 @@
     height: 100px;
     width: 100px;
     font-size: 36px;
-    float: right;
     margin: 0px 15px;
-    padding: 31px;
+    padding: 31px;  
+    float: left; 
 }
 
-.none-margin{
-    margin: 0;
+.block_4 {
+    background-color: #FC8F8F;
+    text-align: center;
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    font-size: 64px;
 }
 
-.space-left{
+.margin-1{
+    margin-left: 270px;
+}
+
+.margin-2{
+    margin-left: 130px;
+}
+
+.none-margin {
+    margin: 0px 0px 0px 15px;
+}
+
+.space-left {
     margin-left: 15px;
 }
 
-.space-right{
-    margin-right: 15px;
-}
+
